@@ -5,13 +5,15 @@
 @version      0.1.0
 @author       1011025m
 @homepageURL  https://github.com/1011025m/RobloxDarkEnhanced
-@updateURL    
+@updateURL    https://github.com/1011025m/RobloxDarkEnhanced/releases/latest/download/main.css
 ==/UserStyle== */
 
 /*  
     Roblox Dark Enhanced for Stylus - Made by 101025m, based on "Roblox Light Enhanced" created by Reselim.
     THIS PIECE OF CODE IS UNLICENSED, BUT YOU CAN MAKE ANY MODIFICATIONS AS YOU LIKE, AS LONG AS YOU DO NOT DISTRIBUTE IT AS YOUR OWN.
 */
+
+@-moz-document url-prefix("https://www.roblox.com") {
 /* Variables, settings, & fonts */
 @font-face {
     font-family: 'Montserrat';
@@ -607,4 +609,5 @@ a.btn-common-play-game-lg, .btn-growth-md:not(.btn-secondary-md) {
 
 a.btn-common-play-game-lg:hover, .btn-growth-md:not(.btn-secondary-md):hover {
     background-color: #008758 !important;
+}
 }

@@ -7,6 +7,7 @@ https://userstyles.org/styles/154692/roblox-light-enhanced
 ## How To Use
 ### Prerequisites
 Please set the theme to "Dark" on your Roblox account first. I have only made the stylesheet based on their dark theme so far.
+
 To do so, you can go to [here](https://www.roblox.com/my/account#!/info) after logging into Roblox. Scroll down to "Personal" and you should see an option for themes, right above the save button.
 
 You should also have Stylus installed on your browser in order to use the stylesheet. If not, install it at:
@@ -21,3 +22,8 @@ ima work on this later
 
 ## License
 The stylesheet is not licensed. However, you may get a copy of it for your own use and modifications, as long as you are not distributing it as your own.
+
+## Support
+I don't mind if you would like to join my dead Discord server lmao
+
+https://discord.gg/AHwMzED
