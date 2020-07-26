@@ -18,7 +18,7 @@ You should also have Stylus installed on your browser in order to use the styles
 **I DO NOT RECOMMEND USING THE STYLISH EXTENSION DUE TO THE PAST INCEIDENTS THEY HAVE CAUSED**
 
 ### Installation
-ima work on this later
+Once you have Stylus installed, [click this link](https://github.com/1011025m/RobloxDarkEnhanced/raw/master/release/RobloxDarkEnhanced.user.css) and Stylus should pop up automatically. From there, you can press the "Install style" button on the left. The stylesheet will be installed to the extension. 
 
 ## License
 The stylesheet is not licensed. However, you may get a copy of it for your own use and modifications, as long as you are not distributing it as your own.
