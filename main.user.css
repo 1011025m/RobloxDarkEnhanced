@@ -2,19 +2,22 @@
 @name         Roblox Dark Enhanced
 @description  Better dark theme for the Roblox website
 @namespace    github.com/1011025m/RobloxDarkEnhanced
-@version      0.1.0
+@version      0.1.0-beta
 @author       1011025m
 @homepageURL  https://github.com/1011025m/RobloxDarkEnhanced
-@updateURL    https://github.com/1011025m/RobloxDarkEnhanced/raw/master/release/RobloxDarkEnhanced.user.css
+@updateURL    https://raw.githubusercontent.com/1011025m/RobloxDarkEnhanced/master/main.user.css
 ==/UserStyle== */
 
 /*  
     Roblox Dark Enhanced for Stylus - Made by 101025m, based on "Roblox Light Enhanced" created by Reselim.
     THIS PIECE OF CODE IS UNLICENSED, BUT YOU CAN MAKE ANY MODIFICATIONS AS YOU LIKE, AS LONG AS YOU DO NOT DISTRIBUTE IT AS YOUR OWN.
 */
-
-@-moz-document url-prefix("https://www.roblox.com") {
+/*  
+    Roblox Dark Enhanced for Stylus - Made by 101025m, based on "Roblox Light Enhanced" created by Reselim.
+    THIS PIECE OF CODE IS UNLICENSED, BUT YOU CAN MAKE ANY MODIFICATIONS AS YOU LIKE, AS LONG AS YOU DO NOT DISTRIBUTE IT AS YOUR OWN.
+*/
 /* Variables, settings, & fonts */
+@-moz-document url-prefix("https://www.roblox.com") {
 @font-face {
     font-family: 'Montserrat';
     font-style: normal;
@@ -475,6 +478,11 @@ a:hover {
     font-size: 0;
 }
 
+.avatar-card-link {
+    background: url(https://storage.needpix.com/rsynced_images/x-1727490_1280.png) no-repeat center;
+    background-size: 100%;
+}
+
 textarea {
     resize: vertical;
     min-height: 50px;
@@ -575,19 +583,28 @@ ul.rbx-navbar li:hover:after {
     margin-top: 0 !important;
 }
 
-.btn-primary-md, .btn-primary-sm, .btn-control-md, .btn-control-sm, .btn-secondary-md, .btn-alert-md, .btn-control-xs:not(.rbx-refresh) {
-    border: solid 2px #fff;
+.btn-primary-md, .btn-primary-sm, .btn-control-md, .btn-control-sm, .btn-secondary-md, .btn-alert-md, .btn-control-xs:not(.rbx-refresh):not(.profile-view-selector) {
+    border: solid 2px #bdbebe;
     padding: 7px;
     transition: background-color .2s, color .2s, border .2s;
 }
 
-.btn-primary-md:hover, .btn-primary-sm:hover, .btn-control-md:hover, .btn-control-sm:hover, .btn-secondary-md:hover {
+.btn-primary-md:hover, .btn-primary-sm:hover, .btn-control-md:hover, .btn-control-sm:hover, .btn-secondary-md:hover, .btn-control-xs:not(.rbx-refresh):not(.profile-view-selector):hover {
+    border: solid 2px #fff !important;
     background-color: transparent !important;
     color: #fff !important;
 }
 
 .btn-alert-md {border: solid 2px #f74b52 !important;}
 .btn-alert-md:hover {border: solid 2px #f5676d !important; color: #f5676d !important;}
+
+.btn-secondary-xs.btn-more:after {
+    transition: transform .2s ease;
+}
+
+.btn-secondary-xs.btn-more:hover:after {
+    transform: translateX(5px) scale(.875);
+}
 
 .rbx-tab-heading {
     transition: box-shadow .2s !important;
@@ -604,5 +621,31 @@ a.btn-common-play-game-lg, .btn-growth-md:not(.btn-secondary-md) {
 
 a.btn-common-play-game-lg:hover, .btn-growth-md:not(.btn-secondary-md):hover {
     background-color: #008758 !important;
+}
+
+.btn-control-xs {
+    font-size: 15px;
+}
+
+@keyframes ModalBackdropFadeIn {
+  from {opacity: 0;}
+  to {opacity: .5;}
+}
+
+.modal-backdrop {
+    animation: ModalBackdropFadeIn .3s ease;
+}
+
+@keyframes ModalWindowFadeIn {
+  from {opacity: 0;transform: translateY(10px);}
+  to {opacity: 1;transform: translateY(0);}
+}
+
+.modal-dialog {
+    animation: ModalWindowFadeIn .3s ease;
+}
+
+.chat-main {
+    box-shadow: 0 1px 5px rgb(0,0,0,.4);
 }
 }
