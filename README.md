@@ -1,8 +1,10 @@
-# RobloxDarkEnhanced
+# Roblox Dark Enhanced
 This is a CSS file for making the Roblox dark theme a little better. Clearly the website guys at Roblox doesn't know how to make their website better, so here you go.
 
 The stylesheet is based on "Roblox Light Enhanced" originally created by Reselim, but it is out of date. You can check it out on Userstyles here:
 https://userstyles.org/styles/154692/roblox-light-enhanced
+
+**THIS IS STILL A WORK IN PROGRESS!!! Please make a new issue if you find any problems, thanks!**
 
 ## How To Use
 ### Prerequisites
