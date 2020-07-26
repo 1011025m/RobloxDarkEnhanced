@@ -23,6 +23,8 @@ ima work on this later
 ## License
 The stylesheet is not licensed. However, you may get a copy of it for your own use and modifications, as long as you are not distributing it as your own.
 
+You can head over to releases to get a copy of the repository as you like.
+
 ## Support
 I don't mind if you would like to join my dead Discord server lmao
 
