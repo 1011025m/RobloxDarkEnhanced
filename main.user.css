@@ -12,10 +12,6 @@
     Roblox Dark Enhanced for Stylus - Made by 101025m, based on "Roblox Light Enhanced" created by Reselim.
     THIS PIECE OF CODE IS UNLICENSED, BUT YOU CAN MAKE ANY MODIFICATIONS AS YOU LIKE, AS LONG AS YOU DO NOT DISTRIBUTE IT AS YOUR OWN.
 */
-/*  
-    Roblox Dark Enhanced for Stylus - Made by 101025m, based on "Roblox Light Enhanced" created by Reselim.
-    THIS PIECE OF CODE IS UNLICENSED, BUT YOU CAN MAKE ANY MODIFICATIONS AS YOU LIKE, AS LONG AS YOU DO NOT DISTRIBUTE IT AS YOUR OWN.
-*/
 @-moz-document url-prefix("https://www.roblox.com") {
 /* Variables, settings, & fonts */
 @font-face {
@@ -35,7 +31,7 @@ body {
     --open: 200ms cubic-bezier(0.17, 0.67, 0.26, 0.96);
     /* Elevations */
     --layer-1: 0 1px 6px rgba(0, 0, 0, 0.2);
-    --layer-2: 0 1px 8px rgba(0, 0, 0, 0.4);
+    --layer-2: 0 1px 8px rgba(0, 0, 0, 0.4); 
     --layer-3: 0 2px 10px rgba(0, 0, 0, 0.6);
     /* Fonts */
     --montserrat: 'Montserrat', sans-serif;
