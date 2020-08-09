@@ -15,7 +15,6 @@ To do so, you can go to [here](https://www.roblox.com/my/account#!/info) after l
 You should also have Stylus installed on your browser in order to use the stylesheet. If not, install it at:
 * Chrome - https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne
 * Firefox - https://addons.mozilla.org/en-US/firefox/addon/styl-us
-* GitHub - https://github.com/openstyles/stylus/releases
 
 **I DO NOT RECOMMEND USING THE STYLISH EXTENSION DUE TO THE PAST INCEIDENTS THEY HAVE CAUSED**
 

@@ -2,7 +2,7 @@
 @name         Roblox Dark Enhanced
 @description  Better dark theme for the Roblox website
 @namespace    github.com/1011025m/RobloxDarkEnhanced
-@version      0.1.0-beta
+@version      0.1.1-beta
 @author       1011025m
 @homepageURL  https://github.com/1011025m/RobloxDarkEnhanced
 @updateURL    https://raw.githubusercontent.com/1011025m/RobloxDarkEnhanced/master/main.user.css
@@ -12,6 +12,7 @@
     Roblox Dark Enhanced for Stylus - Made by 101025m, based on "Roblox Light Enhanced" created by Reselim.
     THIS PIECE OF CODE IS UNLICENSED, BUT YOU CAN MAKE ANY MODIFICATIONS AS YOU LIKE, AS LONG AS YOU DO NOT DISTRIBUTE IT AS YOUR OWN.
 */
+
 @-moz-document url-prefix("https://www.roblox.com") {
 /* Variables, settings, & fonts */
 @font-face {
